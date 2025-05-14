@@ -19,22 +19,11 @@
 - **📝 Debug Logs**: Logs are preserved for testing and debugging purposes.
 
 ---
-
-## 📋 Table of Contents
-
-- [Installation](#installation)
-- [Setup](#setup)
-- [Running the App](#running-the-app)
-- [Features](#features)
-- [Known Issues](#known-issues)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🚀 Installation
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone [[repository-url]](https://github.com/phaoga54/DGT-POC/)
 cd location-tracking-app
 ```
 
@@ -68,38 +57,12 @@ expo run:android
 expo start
 ```
 
-## ✨ Features
-
-- 📍 Real-time location tracking
-- 🔄 Background location updates
-- 📊 Location history and logs
-- ⚙️ Configurable tracking intervals
-- 📱 Cross-platform support (Android/iOS)
-
 ## ⚠️ Known Issues
 
 1. **iOS Simulator**: Background tasks and notifications don't work
 2. **Release Mode**: Requires commercial license for background geolocation
 3. **Edit Feature**: Currently disabled for location items
 4. **Runtime Config**: Cannot update intervals while tracking is active
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Make your changes
-4. Test thoroughly on Android
-5. Submit a pull request
-
-## 📄 License
-
-[Add your license information here]
-
----
-
-### 📞 Support
-
-If you encounter any issues or have questions, please [create an issue](link-to-issues) or contact the development team.
 
 ### 🔧 Development Environment
 
