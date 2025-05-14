@@ -1,0 +1,7 @@
+- Notifications and background tasks are not working on iOS simulators, so this app is developed using android emulator it's the best to test this on android
+- The app is built using react native expo, please make sure to have expo configured before start to test
+- The location tracking in background uses react native background geolocation which requires license to run in release mode, so this app only works on debug mode so far
+- In order for features to run, please accept all permissions requested
+- For edit item feature, due to time limited and from my perspective, the’s nothing should be edit in our current location item, so I’m currently ignore it
+- The App currently not support update interval while the tracking is running, please stop tracking before update configs
+- Log is preserved for testing purpose
